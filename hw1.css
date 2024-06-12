@@ -1,0 +1,134 @@
+body {
+    background: radial-gradient(#f59c94, #f8cdac);
+    height: 100vh;
+    margin-left: 50px auto;
+}
+
+#name {
+    color: #ff7266;
+    font-family: Arial Black;
+    width: 1000px;
+    font-size: 50px; 
+    padding: 20px 2px;
+    border: 2px solid #f59d95; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255);
+    text-align: center; 
+    margin-top: 50px;
+    margin: 50px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about {
+    width: 400px;
+    border: 2px solid #f59d95;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 25%;
+    font-family: Arial Black;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.links {
+    display: inline-block;
+    /* float: right;
+    width: 30%; */
+    height: auto;
+    list-style-type: none; 
+    padding-top: 6px; 
+    margin-left: 40px;
+    margin: 0%;
+}
+
+/* .links {
+    
+    
+} */
+
+.links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Отступ между ссылками */
+}
+
+.links a {
+    display: flex; /* Добавлено для выравнивания содержимого ссылок */
+    align-items: center;
+    text-decoration: none; /* Убирает подчеркивание ссылок */
+    color: inherit; /* Наследует цвет от родителя */
+
+}
+
+.links img {
+    width: 35px;
+    height: auto;
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+.links span {
+    font-size: 16px; /* Размер шрифта для текста */
+    color: #000; /* Цвет текста */
+    font-family: Arial Black;
+}
+
+.links-photo {
+    width: 190px;
+    height: auto;
+}
+
+.photo img {
+    width: 120px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 20%;
+    border: 2px solid #f59d95;
+}
+
+#title {
+    font-family: Arial Black;
+    text-align: center; 
+    font-size: 30px; 
+    padding-top: 3%;
+}
+
+#work {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Arial Black;
+    font-size: 17px;
+    padding-bottom: 3%;
+}
+
+#workblock {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+#educationblock {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+#education {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Arial Black;
+    font-size: 17px;
+    padding-bottom: 3%;
+}
+
+#worktitle {
+    color: #ff7f73;
+}
+
+#inno {
+    margin-right: 25px;
+}
+
+#years {
+    width: 125px;
+}
