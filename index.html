@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <title>Daria Nikolaeva</title>
     </head>
     <body>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
         <p id="name">Daria Nikolaeva</p>
         <div class="conteiner">
             <div class="about">
@@ -17,7 +17,9 @@
                         var currentTime = new Date();
                         var options = { hour: '2-digit', minute: '2-digit' };
                         timeElement.textContent = currentTime.toLocaleTimeString([], options);
+                        timeElement.textContent = formattedTime;
                         }, 1000);
+                        timeElement.setAttribute('datetime', currentTime.toISOString());
                     </script>
                     <li>19 y.o.</li>
                     <li>English, Russian</li>
@@ -51,7 +53,7 @@
                     </td>
                     <td >
                         <div class="photo">
-                            <img src="images/ph.jpg" alt="Your Photo">
+                            <img src="images/ph.jpg" alt="My Photo">
                         </div>
                     </td>
                 </tr>
@@ -59,47 +61,50 @@
         </div>
         
     <div id="educationblock">
-        <p id="title">Education</p>
+        <p class="title">Education</p>
         <table id="education">
             <tr>
-                <td id="years">
+                <td class="years">
                     <p id="inno">2023-2027</p>
                 </td>
                 <td>
-                    <p id="worktitle">Innopolis University, Russia.</p><p>Bachelor: Information Systems Engineering.</p>
+                    <p class="worktitle">Innopolis University, Russia.</p><p>Bachelor: Information Systems Engineering.</p>
                 </td>
             </tr>
         </table>
     </div>
     
     <div id="workblock">
-        <p id="title">Work experience</p>
+        <p class="title">Work experience</p>
         <table id="work">
             <tr>
-                <td id="years">
+                <td class="years">
                     <p>Mar. 2024</p>
                 </td>
                 <td>
-                    <p id="worktitle">Innopolis University.</p><p>Development of a telegram bot with quizzes and advertising information. Participation with this bot at the VDNH exhibition, Moscow, Russia.</p>
+                    <p class="worktitle">Innopolis University.</p><p>Development of a telegram bot with quizzes and advertising information. Participation with this bot at the VDNH exhibition, Moscow, Russia.</p>
                 </td>
             </tr>
             <tr>
-                <td id="years">
+                <td class="years">
                     <p>Since oct. 2023</p>
                 </td>
                 <td>
-                    <p  id="worktitle">Innopolis University.</p><p>Teacher at the courses "Python beginners", "Python continuing", "Development of a telegram bots on Python"</p>
+                    <p  class="worktitle">Innopolis University.</p><p>Teacher at the courses "Python beginners", "Python continuing", "Development of a telegram bots on Python"</p>
                 </td>
             </tr>
             <tr>
-                <td id="years">
+                <td class="years">
                     <p >Sep. 2023 - May 2024</p>
                 </td>
                 <td>
-                    <p id="worktitle">100points school.</p><p>Tutor of computer science courses in preparation for the state exam</p>
+                    <p class="worktitle">100points school.</p><p>Tutor of computer science courses in preparation for the state exam</p>
                 </td>
             </tr>
         </table>
+    </div>
+    <div id="comic-link-div">
+        <a id="comic-link" href="comic.html">Click here to view the funny comic</a>
     </div>
     </body>
 </html>

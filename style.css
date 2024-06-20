@@ -2,6 +2,12 @@ body {
     background: radial-gradient(#f59c94, #f8cdac);
     height: 100vh;
     margin-left: 50px auto;
+    padding-bottom: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #name {
@@ -44,10 +50,6 @@ body {
     margin: 0%;
 }
 
-/* .links {
-    
-    
-} */
 
 .links li {
     display: flex;
@@ -88,7 +90,7 @@ body {
     border: 2px solid #f59d95;
 }
 
-#title {
+.title {
     font-family: Arial Black;
     text-align: center; 
     font-size: 30px; 
@@ -121,7 +123,7 @@ body {
     padding-bottom: 3%;
 }
 
-#worktitle {
+.worktitle {
     color: #ff7f73;
 }
 
@@ -129,6 +131,39 @@ body {
     margin-right: 25px;
 }
 
-#years {
+.years {
     width: 125px;
+}
+
+a#comic-link {
+    display: block;
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 25px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    padding: 0.3%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#comic-link:hover {
+    background-color: #f1b0aa; 
+}
+
+#comic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px solid #f59d95;
+    border-radius: 8px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 3%;
 }
