@@ -3,6 +3,9 @@ body {
     height: 100vh;
     margin-left: 50px auto;
     padding-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -27,22 +30,22 @@ a {
 }
 
 .about {
-    width: 400px;
+    width: 60%;
+    height: 70%;
     border: 2px solid #f59d95;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin-left: 25%;
+    font-size: 1vw;
     font-family: Arial Black;
     position: relative;
     float: left;
     margin-right: 20px;
     margin-top: 6px;
+    margin-left: 15%;
 }
 
 .links {
     display: inline-block;
-    /* float: right;
-    width: 30%; */
     height: auto;
     list-style-type: none; 
     padding-top: 6px; 
@@ -54,21 +57,21 @@ a {
 .links li {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Отступ между ссылками */
+    margin-bottom: 10px;
 }
 
 .links a {
-    display: flex; /* Добавлено для выравнивания содержимого ссылок */
+    display: flex; 
     align-items: center;
-    text-decoration: none; /* Убирает подчеркивание ссылок */
-    color: inherit; /* Наследует цвет от родителя */
+    text-decoration: none; 
+    color: inherit;
 
 }
 
 .links img {
     width: 35px;
     height: auto;
-    margin-right: 10px; /* Отступ между изображением и текстом */
+    margin-right: 10px; 
 }
 
 .links span {
@@ -83,9 +86,9 @@ a {
 }
 
 .photo img {
-    width: 120px;
+    width: 50%;
     height: auto;
-    margin-left: 100px;
+    margin-left: 25%;
     border-radius: 20%;
     border: 2px solid #f59d95;
 }
@@ -108,11 +111,13 @@ a {
 #workblock {
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
+    margin-bottom: 2%;
 }
 
 #educationblock {
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
+    margin-bottom: 2%;
 }
 
 #education {
@@ -142,13 +147,16 @@ a#comic-link {
     font-size: 25px;
     border: 2px solid black; 
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
     margin: auto;
     margin-top: 2%;
     background-color: rgba(255, 255, 255, 0.5);
     color: #000000;
     padding: 0.3%;
+    padding-left: 2%;
+    padding-right: 2%;
     transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 5%;
 }
 
 #comic-link:hover {
@@ -166,4 +174,11 @@ a#comic-link {
     width: 1000px;
     margin: auto;
     margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
 }
