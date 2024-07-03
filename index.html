@@ -1,110 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Daria Nikolaeva</title>
-    </head>
-    <body>
-        <link rel="stylesheet" href="style.css">
-        <p id="name">Daria Nikolaeva</p>
-        <div class="container">
-            <div class="about">
-                <ul>
-                    <li>Python Developer</li>
-                    <li>Innopolis, Russia. Local time: <time id="currentTime"></time></li>
-                    <script>
-                        var timeElement = document.getElementById('currentTime');
-                        setInterval(function () {
-                        var currentTime = new Date();
-                        var options = { hour: '2-digit', minute: '2-digit' };
-                        timeElement.textContent = currentTime.toLocaleTimeString([], options);
-                        timeElement.textContent = formattedTime;
-                        }, 1000);
-                        timeElement.setAttribute('datetime', currentTime.toISOString());
-                    </script>
-                    <li>19 y.o.</li>
-                    <li>English, Russian</li>
-                </ul>
-            </div>
-            <table style="margin: 20px;">
-                <tr>
-                    <td style="display: inline-block;">
-                        <div class="links-photo">
-                            <ul class="links">
-                                <li>
-                                    <a href="https://github.com/aalikorn">
-                                        <img src="images/25231.png" alt="GitHub" id="gh-link">
-                                        <span>GitHub</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://t.me/aalikorn">
-                                        <img src="images/telegram-minimal-logo-2F6E632BF2-seeklogo.com.png" alt="Telegram" id="tg-link">
-                                        <span>Telegram</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:nikolaevdaaa@gmail.com">
-                                        <img src="images/email_icon-icons.com_64925.png" alt="Email" id="email">
-                                        <span>Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </td>
-                    <td >
-                        <div class="photo">
-                            <img src="images/ph.jpg" alt="My Photo">
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        
-    <div id="educationblock">
-        <p class="title">Education</p>
-        <table id="education">
-            <tr>
-                <td class="years">
-                    <p id="inno">2023-2027</p>
-                </td>
-                <td>
-                    <p class="worktitle">Innopolis University, Russia.</p><p>Bachelor: Information Systems Engineering.</p>
-                </td>
-            </tr>
-        </table>
-    </div>
-    
-    <div id="workblock">
-        <p class="title">Work experience</p>
-        <table id="work">
-            <tr>
-                <td class="years">
-                    <p>Mar. 2024</p>
-                </td>
-                <td>
-                    <p class="worktitle">Innopolis University.</p><p>Development of a telegram bot with quizzes and advertising information. Participation with this bot at the VDNH exhibition, Moscow, Russia.</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="years">
-                    <p>Since oct. 2023</p>
-                </td>
-                <td>
-                    <p  class="worktitle">Innopolis University.</p><p>Teacher at the courses "Python beginners", "Python continuing", "Development of a telegram bots on Python"</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="years">
-                    <p >Sep. 2023 - May 2024</p>
-                </td>
-                <td>
-                    <p class="worktitle">100points school.</p><p>Tutor of computer science courses in preparation for the state exam</p>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="comic-link-div">
-        <a id="comic-link" href="comic.html">Click here to view the funny comic</a>
-    </div>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daria Nikolaeva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root-index"></div>
+  <script src="dist/index.bundle.js"></script>
+</body>
 </html>

@@ -41,7 +41,7 @@ a {
     float: left;
     margin-right: 20px;
     margin-top: 6px;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .links {
@@ -181,4 +181,10 @@ a#comic-link {
     width: 80%;
     align-items: center;
     justify-content: center;
+}
+
+#root-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
