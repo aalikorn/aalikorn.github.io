@@ -28,7 +28,7 @@ const Comic: React.FC<ComicProps> = ({ comic }) => {
     );
 };
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
     try {
         const email = "da.nikolaeva@innopolis.university";
         const hw2Url = new URL("https://fwd.innopolis.university/api/hw2");
