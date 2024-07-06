@@ -1,11 +1,11 @@
 import React from 'react';
-import Name from './components/Name';
-import About from './components/About'; 
-import Links from './components/Links';
-import Photo from './components/Photo';
-import Education from './components/Education';
-import Work from './components/Work';
-import ComicLink from './components/ComicLink';
+import Name from './Name';
+import About from './About'; 
+import Links from './Links';
+import Photo from './Photo';
+import Education from './Education';
+import Work from './Work';
+import ComicLink from './ComicLink';
 
 
 const Portfolio: React.FC = () => {

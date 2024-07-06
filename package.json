@@ -1,19 +1,23 @@
 {
+  "homepage": "https://aalikorn.github.io/frontend",
   "name": "hw1",
   "version": "1.0.0",
-  "main": "script.tsx",
+  "main": "src/pages/_app.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "predeploy": "npm run build && next export",
+    "deploy": "gh-pages -d out",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@babel/preset-react": "^7.24.7",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
@@ -21,15 +25,13 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.5.2",
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "dayjs": "^1.11.11",
+    "next": "^14.2.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript-cli": "^0.1.0"
+    "react-dom": "^18.3.1"
   }
 }
