@@ -7,11 +7,8 @@ const HomePage: React.FC = () => {
   return (
     <Layout>
       <Head>
-        <title>My Portfolio</title>
-        <meta
-          name="description"
-          content="This is the homepage of my portfolio website."
-        />
+        <title>Daria Nikolaeva</title>
+        <meta name="description" content="Dasha's portfolio :)" />
       </Head>
       <Portfolio />
     </Layout>
