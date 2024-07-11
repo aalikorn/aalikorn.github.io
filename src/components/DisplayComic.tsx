@@ -24,6 +24,7 @@ interface DisplayComicProps {
 
 const DisplayComic: React.FC<DisplayComicProps> = ({ comic }) => {
   const comicDate = dayjs(`${comic.year}-${comic.month}-${comic.day}`);
+  console.log("test");
 
   return (
     <div id="comic-container">
