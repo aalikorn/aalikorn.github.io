@@ -1,200 +1,200 @@
 body {
-    background: radial-gradient(#f59c94, #f8cdac);
-    height: 100vh;
-    padding-bottom: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: radial-gradient(#f59c94, #f8cdac);
+  height: 100vh;
+  padding-bottom: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #__next {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 #aaa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 :global(*) {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #name {
-    color: #ff7266;
-    font-family: Arial Black;
-    width: 1000px;
-    font-size: 50px; 
-    padding: 20px 2px;
-    border: 2px solid #f59d95; 
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255);
-    text-align: center; 
-    margin-top: 50px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  color: #ff7266;
+  font-family: Arial Black;
+  width: 1000px;
+  font-size: 50px;
+  padding: 20px 2px;
+  border: 2px solid #f59d95;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .about {
-    width: 60%;
-    height: 70%;
-    border: 2px solid #f59d95;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 1vw;
-    font-family: Arial Black;
-    position: relative;
-    float: left;
-    margin-right: 20px;
-    margin-top: 6px;
-    margin-left: 10%;
+  width: 60%;
+  height: 70%;
+  border: 2px solid #f59d95;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1vw;
+  font-family: Arial Black;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-top: 6px;
+  margin-left: 10%;
 }
 
 .links {
-    display: inline-block;
-    height: auto;
-    list-style-type: none; 
-    padding-top: 6px; 
-    margin-left: 40px;
-    margin: 0%;
+  display: inline-block;
+  height: auto;
+  list-style-type: none;
+  padding-top: 6px;
+  margin-left: 40px;
+  margin: 0%;
 }
 
-
 .links li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .links a {
-    display: flex; 
-    align-items: center;
-    text-decoration: none; 
-    color: inherit;
-
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .links img {
-    width: 35px;
-    height: auto;
-    margin-right: 10px; 
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .links span {
-    font-size: 16px; /* Размер шрифта для текста */
-    color: #000; /* Цвет текста */
-    font-family: Arial Black;
+  font-size: 16px; /* Размер шрифта для текста */
+  color: #000; /* Цвет текста */
+  font-family: Arial Black;
 }
 
 .links-photo {
-    width: 190px;
-    height: auto;
+  width: 190px;
+  height: auto;
 }
 
 .photo img {
-    width: 50%;
-    height: auto;
-    margin-left: 25%;
-    border-radius: 20%;
-    border: 2px solid #f59d95;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  border-radius: 20%;
+  border: 2px solid #f59d95;
 }
 
 .title {
-    font-family: Arial Black;
-    text-align: center; 
-    font-size: 30px; 
-    padding-top: 3%;
+  font-family: Arial Black;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3%;
 }
 
 #work {
-    margin-left: 250px;
-    margin-right: 250px;
-    font-family: Arial Black;
-    font-size: 17px;
-    padding-bottom: 3%;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: Arial Black;
+  font-size: 17px;
+  padding-bottom: 3%;
 }
 
 #workblock {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    margin-bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 #educationblock {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    margin-bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 #education {
-    margin-left: 250px;
-    margin-right: 250px;
-    font-family: Arial Black;
-    font-size: 17px;
-    padding-bottom: 3%;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: Arial Black;
+  font-size: 17px;
+  padding-bottom: 3%;
 }
 
 .worktitle {
-    color: #ff7f73;
+  color: #ff7f73;
 }
 
 #inno {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .years {
-    width: 125px;
+  width: 125px;
 }
 
 a#comic-link {
-    display: block;
-    text-align: center;
-    font-family: Arial Black;
-    font-size: 25px;
-    border: 2px solid black; 
-    border-radius: 10px;
-    width: 100%;
-    margin: auto;
-    margin-top: 2%;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
-    padding: 0.3%;
-    padding-left: 2%;
-    padding-right: 2%;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 5%;
+  display: block;
+  text-align: center;
+  font-family: Arial Black;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+  padding: 0.3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  margin-bottom: 5%;
 }
 
 #comic-link:hover {
-    background-color: #f1b0aa; 
+  background-color: #f1b0aa;
 }
 
 #comic-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 5px solid #f59d95;
-    border-radius: 8px;
-    width: 1000px;
-    margin: auto;
-    margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 5px solid #f59d95;
+  border-radius: 8px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 3%;
 }
 
 .container {
-    display: flex;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
 }
